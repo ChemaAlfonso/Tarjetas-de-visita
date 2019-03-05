@@ -1,0 +1,153 @@
+#presentationCardFull{
+    background-image: url("../../../assets/img/base/usuario/triangulos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.contenedor{
+    
+}
+
+
+/* ------------------------------------- */
+/* -------Slider Banner */
+/* ------------------------------------- */
+
+.slider-banner{
+    overflow: hidden;
+    z-index: 1000;
+    position: relative;
+}
+
+.slider-banner > #banner{
+    position: relative;
+}
+
+img.slide{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.slider-banner .flecha-banner,
+.slider-info .flecha-info{
+    font-size: 3em;
+    line-height: 3em;
+    color: rgba(97, 143, 212, 0.3);
+    top: 35%;
+    position: absolute;
+    z-index: 1200;
+}
+
+@media (max-width: 400px) {
+    
+    .slider-banner .flecha-banner{
+        top: 5%;
+    }
+
+}
+
+.slider-banner .anterior,
+.slider-info .anterior{
+    left: 5%;
+}
+.slider-banner .siguiente,
+.slider-info .siguiente{
+    right: 5%;
+}
+
+.slider-banner .flecha-banner:hover,
+.slider-info .flecha-info:hover{
+    color: rgba(97, 143, 212, 0.9);
+}
+
+
+
+/* ------------------------------------- */
+/* -------Slider Info */
+/* ------------------------------------- */
+
+#info{
+    overflow: hidden;
+    position: relative;
+}
+
+#info .slide{
+    background: #fff;
+    width: 100%;
+    left: 100%;
+    position: absolute;
+}
+
+.subtitulo{
+    width: 80%;
+    margin: auto;
+    padding: .5em 0;
+}
+
+.nombre{
+    font-size: 1.8em;
+}
+.trabajo{
+    font-size: 1.2em;
+}
+
+.pais img{
+    position: relative;
+    top: -2px;
+}
+
+.slide .titulo{
+    font-weight: bold;
+}
+
+#informacion .botones{
+    width: 100%;
+}
+
+.botones span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: #e6e6e6;
+}
+
+#informacion .botones .active{
+    background: #6ed289;
+}
+
+/* Redes sociales */
+
+.social-info a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    margin: 0 .85em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.youtube{
+    background-color:#ff0000;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+.github{
+    background-color: #24292e;
+}
+.github i{
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    left: -7.55px;
+    top: 6.5px;
+}
